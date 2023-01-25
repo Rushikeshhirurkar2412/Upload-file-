@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(10, 40, 41);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 500px;
+    margin: 60px auto;
+}
+
+.container h1 {
+    text-align: center;
+    color: white;
+}
+
+form {
+    background-color: white;
+    padding: 30px;
+}
+
+form .input-group {
+    margin-bottom: 15px;
+}
+
+form input {
+    padding: 12px 20px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.submit-btn {
+    width: 100%;
+    border: double 5px;
+    background: rgb(14, 125, 33);
+    font-size: 18px;
+    color: white;
+    border-radius: 3px;
+    padding: 20px;
+    text-align: center;
+}
